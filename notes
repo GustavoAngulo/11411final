@@ -1,0 +1,4 @@
+Answering Module
+"a filter preselects small text fragments that contain strings of the same type as the expected answer.[citation needed] For example, if the question is "Who invented penicillin?", the filter returns text that contain names of people. Finally, an answer extraction module looks for further clues in the text to determine if the answer candidate can indeed answer the question"
+from: https://en.wikipedia.org/wiki/Question_answering
+usage: run Named Entity Recognition (NER) on question => Run NER on document => Narrow down text to sentences that contain named entities found in question
